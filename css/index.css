@@ -1,0 +1,317 @@
+html {
+    font-size: 100px
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    color: #555;
+    background: #EBF0F5
+}
+
+a, a:active, a:visited, a:hover, a:target {
+    display: block;
+    color: #555
+}
+
+.main {
+    margin: 0 auto
+}
+
+.header .con {
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .32rem;
+    color: #FFF;
+    background: #1C90F2
+}
+
+.header .con .logo, .header .con .type {
+    float: left
+}
+
+.header .con .login, .header .con .menu {
+    float: right
+}
+
+.header .con .logo {
+    padding-left: .7rem;
+    width: 1.44rem;
+    border-right: .02rem solid #066DC4;
+    font-size: .32rem;
+    font-weight: normal;
+    background: url("../img/icon-logo.png") no-repeat .1rem center;
+    background-size: .48rem
+}
+
+.header .con .type {
+    padding: 0 .2rem;
+    border-left: .02rem solid #61B2F6
+}
+
+.header .con .login {
+    padding: 0 .3rem
+}
+
+.header .con .menu {
+    width: .88rem;
+    height: .88rem;
+    background: url("../img/btn-nav-fold.png") no-repeat center center;
+    background-size: 50%
+}
+
+.header .nav {
+    padding: 0 0;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height .3s linear 0s;
+    transition: height .3s linear 0s
+}
+
+.header .nav a {
+    float: left;
+    width: 16%;
+    height: .74rem;
+    line-height: .74rem;
+    text-align: center;
+    font-size: .32rem
+}
+
+.header .nav a:nth-child(6n+1) {
+    margin-left: 2%
+}
+
+.videoArea {
+    height: 3.6rem;
+    background: #000
+}
+
+.videoArea video {
+    width: 100%;
+    height: 100%
+}
+
+.matchInfo {
+    box-sizing: border-box;
+    padding: .3rem;
+    overflow: hidden;
+    background: #FFF
+}
+
+.matchInfo .top {
+    height: .6rem;
+    line-height: .6rem
+}
+
+.matchInfo .top .home, .matchInfo .top .away {
+    float: left;
+    width: 34%
+}
+
+.matchInfo .top .home img, .matchInfo .top .away img {
+    display: inline-block;
+    width: .64rem;
+    height: .6rem;
+    vertical-align: top
+}
+
+.matchInfo .top .home span, .matchInfo .top .away span {
+    display: inline-block;
+    font-size: .4rem;
+    vertical-align: top
+}
+
+.matchInfo .top .home span {
+    margin-left: .24rem
+}
+
+.matchInfo .top .away {
+    text-align: right
+}
+
+.matchInfo .top .away span {
+    margin-right: .24rem
+}
+
+.matchInfo .top .time {
+    float: left;
+    width: 32%;
+    font-size: .24rem;
+    color: #999;
+    text-align: center
+}
+
+.matchInfo .middle {
+    position: relative;
+    margin: .2rem 0;
+    height: .04rem;
+    background: #1C90F2
+}
+
+.matchInfo .middle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: .04rem;
+    background: #F82D2D;
+    -webkit-transition: all .5s linear 0s;
+    transition: all .5s linear 0s
+}
+
+.matchInfo .bottom {
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center
+}
+
+.matchInfo .bottom span {
+    float: left;
+    width: 34%;
+    font-size: .24rem;
+    color: #999
+}
+
+.matchInfo .bottom .type {
+    width: 32%
+}
+
+.matchInfo .bottom .home {
+    background: url("../img/support-left.png") no-repeat left center;
+    background-size: .24rem
+}
+
+.matchInfo .bottom .home.bg {
+    color: #F82D2D;
+    background: url("../img/support-red.png") no-repeat left center;
+    background-size: .24rem
+}
+
+.matchInfo .bottom .away {
+    background: url("../img/support-right.png") no-repeat right center;
+    background-size: .24rem
+}
+
+.matchInfo .bottom .away.bg {
+    color: #1C90F2;
+    background: url("../img/support-blue.png") no-repeat right center;
+    background-size: .24rem
+}
+
+.matchList {
+    box-sizing: border-box;
+    width: 100%;
+    padding: .2rem .3rem;
+    background: #FFF;
+    overflow: hidden
+}
+
+.matchList li {
+    float: left;
+    margin-right: .2rem;
+    width: 2.2rem;
+    overflow: hidden
+}
+
+.matchList li div {
+    position: relative;
+    width: 100%;
+    height: 1.24rem
+}
+
+.matchList li div img {
+    width: 100%;
+    height: 100%
+}
+
+.matchList li div span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: .08rem;
+    height: .31rem;
+    line-height: .31rem;
+    font-size: .24rem;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.matchList li p {
+    font-size: .24rem;
+    line-height: .3rem
+}
+
+.matchList li.bg p {
+    color: #F82D2D
+}
+.newList{
+    margin-top: .2rem;
+    padding: .3rem .3rem 0 .3rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+.newList h2 a{
+    display: inline-block;
+    width: 100%;
+    font-size: .36rem;
+    color: #000;
+    text-decoration: none;
+    font-family: "寰蒋闆呴粦","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.newList h2 a span{
+    display: inline-block;
+    float: right;
+    width: .17rem;
+    height: .23rem;
+    margin: .03rem 0 -.03rem .04rem;
+    background-image: url(../img/arrow.png);
+    background-size: .17rem .23rem;
+}
+.newList ul .newListInfo{
+    margin: .25rem 0;
+    overflow: hidden;
+}
+.newList ul .newListInfo a{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+.newList ul .newListInfo a img{
+    width: 1.47rem;
+    height:.89rem;
+    float: left;
+    margin-right: .10rem;
+    border: none;
+}
+.newList ul .newListInfo a h3{
+    margin-bottom: .05rem;
+    font-size:.25rem;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.newList ul .newListInfo a i{
+    position: absolute;
+    top: .42rem;
+    left: .67rem;
+    width: .15rem;
+    height: .15rem;
+    background-image: url(../img/play.png);
+    background-size: .15rem .15rem;
+}
+.newList ul .newListInfo a p{
+    font-size: .12rem;
+    color: #999;
+}
+.newList ul .newListInfo a:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: .01rem;
+    margin-top: .12rem;
+    background-color: #e5e5e5;
+}
