@@ -224,8 +224,5 @@ var newList=(function(){
             })
         }
     }
-
-
-
 })();
 newList.init();

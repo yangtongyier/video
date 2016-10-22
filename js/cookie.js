@@ -41,7 +41,6 @@ var cookieRender = (function () {
             document.cookie = _default.name + "= ;path=" + _default.path + ";domain=" + _default.domain + ";expires=Fri,02-Jan-1970 00:00:00 GMT";
         }
     }
-
     return {
         set: setValue,
         get: getValue,
