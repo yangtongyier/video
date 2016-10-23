@@ -296,12 +296,12 @@ a, a:active, a:visited, a:hover, a:target {
 }
 .newList ul .newListInfo a i{
     position: absolute;
-    top: .42rem;
-    left: .67rem;
-    width: .15rem;
-    height: .15rem;
+    top: .3rem;
+    left: .6rem;
+    width: .35rem;
+    height: .35rem;
     background-image: url(../img/play.png);
-    background-size: .15rem .15rem;
+    background-size: .35rem .35rem;
 }
 .newList ul .newListInfo a p{
     font-size: .12rem;
